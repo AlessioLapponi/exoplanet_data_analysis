@@ -28,6 +28,7 @@ The goal is to demonstrate a complete, end-to-end data workflow:
 
 ## Project Structure
 The repository is organized into the following directories:
+
 ├── data/  
 │   └── exoplanets_clean.csv          # Cleaned dataset used for analysis  
 │  
@@ -92,22 +93,20 @@ exoplanet_analysis.ipynb
 exoplanet_dashboard.pbix
 ```
 
-# 💡 **Insights & Observations**
-
-```markdown
-## 💡 Insights & Observations
+# **Insights & Observations**
 
 - The number of confirmed exoplanets increases sharply after major space missions such as *Kepler*, launched in 2009 and retired in 2018, demonstrating the impact of dedicated observatories. After this mission, the number of observable exoplanets seems almost saturated, at least before another dedicated probe is launched.
 - Average system distances can fluctuate year-to-year, reflecting changes in telescope sensitivity and survey strategies. However, overall a positive trend between distances and years can be observed. This indicates how the space exploration can go deep as the years pass. A further analysis of this trend, using machine learning methods, will follow to predict the future of space observation.
 - The Transit method dominates modern exoplanet detection due to large-scale photometric surveys and high cadence monitoring.
 - Orbital periods show a strong observational bias: short-period planets are far more frequently detected across all methods. The transit method shows a particular success in the observation of short-period planets while, for longer period planets, the Radial Velocity method is way more effective.
 - Further quantitative analysis will follow very soon.
-```
 
-## 👤 Author
+
+## Author
 
 **Alessio Lapponi**  
 Applied Physicist | Soon PhD in Cosmology, Space Science and Space Technology | Numerical Modelling | Data Analysis  
 [LinkedIn](https://www.linkedin.com/in/alessio-lapponi-297b58247)
+
 
 
